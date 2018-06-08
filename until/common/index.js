@@ -3,7 +3,7 @@ const pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'blog'
+    database: 'test'
 })
 
 let querySql = ( sql )=> {
